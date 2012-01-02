@@ -74,39 +74,37 @@ are incompatible.
 5.  Supported IO
 
     ##### UART J3 6 pin Header
-        Terminal Settings 
-        115200 baud, 8 bits, nor parity, 1 stop bit.
-        <table border="1" cellpadding="5">
-        
-        <tr>
-        <td>Pin Out</td>
-        <td></td>
-        </tr>
-        
-        <tr>
-        <td>Pin1</td>
-        <td>3.3VDC</td>
-        </tr>
-        <tr>
-        <td>Pin2</td>
-        <td>S_in</td>
-        </tr>
-        <tr>
-        <td>Pin3</td>
-        <td>NC</td>
-        </tr>
-        <tr>
-        <td>Pin4</td>
-        <td>NC</td>
-        </tr>
-        <tr>
-        <td>Pin5</td>
-        <td>S_out</td></tr>
-        <tr>
-        <td>Pin6</td>
-        <td>GND</td>
-        </tr>
-        </table>
+    Terminal Settings 
+    115200 baud, 8 bits, nor parity, 1 stop bit.
+    <table border="1" cellpadding="5">
+    <tr>
+    <td>Pin Out</td>
+    <td></td>
+    </tr>
+    <tr>
+    <td>Pin1</td>
+    <td>3.3VDC</td>
+    </tr>
+    <tr>
+    <td>Pin2</td>
+    <td>S_in</td>
+    </tr>
+    <tr>
+    <td>Pin3</td>
+    <td>NC</td>
+    </tr>
+    <tr>
+    <td>Pin4</td>
+    <td>NC</td>
+    </tr>
+    <tr>
+    <td>Pin5</td>
+    <td>S_out</td></tr>
+    <tr>
+    <td>Pin6</td>
+    <td>GND</td>
+    </tr>
+    </table>
     
     ##### JTAG Port "J4"
     14 Pin header
