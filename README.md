@@ -1,6 +1,6 @@
 # Jakub Klinkovský's configuration files
 
-These are my config files of OpenWrt - an operating system I use in my RouterStation Pro.
+These are my config files of OpenWrt - an operating system I use in my Ubiquiti RouterStation Pro.
 
 
 ## Installation
@@ -20,14 +20,14 @@ I build the system from trunk source. To get it do the following:
     git clone git://nbd.name/openwrt.git ~/trunk/
     cd ~/trunk
 
-To build it you need to have installed gcc, binutils, patch, bzip2, flex,
-make, gettext, pkg-config, unzip, libz-dev and libc headers. Then run `make menuconfig`
-to configure your firmware and `make` to build it.
+To build it you need to have installed gcc, binutils, patch, bzip2, flex, make, gettext, pkg-config,
+unzip, libz-dev and libc headers. Then run `make menuconfig` to configure your firmware and `make`
+to build it.
 
 
 ### Hardware
 
-I have a RouterStation Pro board, these config files may not work on other devices. Especially
+I have a Ubiquiti RouterStation Pro board, these config files may not work on other devices. Especially
 `.config` will work only on RouterStation Pro! Also note that RouterStation and RouterStation Pro
 are incompatible.
 
@@ -254,3 +254,11 @@ are incompatible.
         <td>NA</td>
     </tr>
     </table>
+
+#### Additional hardware informations
+- I have two wireless cards TP-Link TL-WN360G. One is used as client to connect to my WISP, the other
+  is used as AP for my home network.
+- I have a 8GB USB flash drive connected to the USB port and I have configured extroot (rootfs on external storage),
+  so the entire system is booted from this device. The entire configuration is done in `/etc/config/fstab`, so if
+  you don't want this, change the mount target from `/` to `/mnt` (or something else). Also if you use the Backfire
+  release or versions of Trunk older than `r26109`, mounting the external storage as `/` is not possible.

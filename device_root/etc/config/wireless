@@ -1,0 +1,28 @@
+config wifi-device  radio0
+	option type     mac80211
+	option channel  10
+	option macaddr	
+	option hwmode	11b
+
+config wifi-iface
+	option device   radio0
+	option network  wan
+	option mode     sta
+	option ssid     RudiceWLAN
+	option encryption 'wep+shared'
+	option key      1
+	option key1     
+
+config wifi-device  radio1
+	option type     mac80211
+	option channel  4
+	option macaddr	
+	option hwmode	11g
+
+config wifi-iface
+	option device   radio1
+	option network  lan
+	option mode     ap
+	option ssid     RSP
+	option encryption 'psk2+aes'
+	option key      
