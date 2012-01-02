@@ -78,86 +78,84 @@ are incompatible.
     115200 baud, 8 bits, nor parity, 1 stop bit.
     <table border="1" cellpadding="5">
     <tr>
-    <td>Pin Out</td>
-    <td></td>
+        <td>Pin Out</td>
+        <td></td>
     </tr>
     <tr>
-    <td>Pin1</td>
-    <td>3.3VDC</td>
+        <td>Pin1</td>
+        <td>3.3VDC</td>
     </tr>
     <tr>
-    <td>Pin2</td>
-    <td>S_in</td>
+        <td>Pin2</td>
+        <td>S_in</td>
     </tr>
     <tr>
-    <td>Pin3</td>
-    <td>NC</td>
+        <td>Pin3</td>
+        <td>NC</td>
     </tr>
     <tr>
-    <td>Pin4</td>
-    <td>NC</td>
+        <td>Pin4</td>
+        <td>NC</td>
     </tr>
     <tr>
-    <td>Pin5</td>
-    <td>S_out</td></tr>
+        <td>Pin5</td>
+        <td>S_out</td></tr>
     <tr>
-    <td>Pin6</td>
-    <td>GND</td>
+        <td>Pin6</td>
+        <td>GND</td>
     </tr>
     </table>
     
     ##### JTAG Port "J4"
     14 Pin header
     <table border="1" cellpadding="5">
-    
     <tr>
-    <td>Pin Out</td>
-    <td></td>
-    <td></td>
-    <td></td>
-    </tr>
-    
-    <tr>
-    <td>Pin1</td>
-    <td>TRST</td>
-    <td>Pin2</td>
-    <td>GND</td>
+        <td>Pin Out</td>
+        <td></td>
+        <td></td>
+        <td></td>
     </tr>
     <tr>
-    <td>Pin3</td>
-    <td>TDI</td>
-    <td>Pin4</td>
-    <td>GND</td>
+         <td>Pin1</td>
+         <td>TRST</td>
+         <td>Pin2</td>
+         <td>GND</td>
     </tr>
     <tr>
-    <td>Pin5</td>
-    <td>TDO</td>
-    <td>Pin6</td>
-    <td>GND</td>
+         <td>Pin3</td>
+         <td>TDI</td>
+         <td>Pin4</td>
+         <td>GND</td>
     </tr>
     <tr>
-    <td>Pin7</td>
-    <td>TMS</td>
-    <td>Pin8</td>
-    <td>GND</td>
+        <td>Pin5</td>
+        <td>TDO</td>
+        <td>Pin6</td>
+        <td>GND</td>
     </tr>
     <tr>
-    <td>Pin9</td>
-    <td>TCK</td>
-    <td>Pin10</td>
-    <td>GND</td>
+        <td>Pin7</td>
+        <td>TMS</td>
+        <td>Pin8</td>
+        <td>GND</td>
     </tr>
     <tr>
-    <td>Pin11</td>
-    <td>RST</td>
-    <td>Pin12</td>
-    <td>NC</td>
+        <td>Pin9</td>
+        <td>TCK</td>
+        <td>Pin10</td>
+        <td>GND</td>
     </tr>
     <tr>
-    <td>Pin13</td>
-    <td>NC</td>
-    <td>Pin14</td>
-    <td>3.3VDC</td>
+        <td>Pin11</td>
+        <td>RST</td>
+        <td>Pin12</td>
+        <td>NC</td>
+    </tr>
+    <tr>
+        <td>Pin13</td>
+        <td>NC</td>
+        <td>Pin14</td>
+        <td>3.3VDC</td>
     </tr>
     </table>
     
@@ -165,47 +163,45 @@ are incompatible.
     Single Row 7 Pin Header Also next to it J5 dual row header to enable pull-up or pull-down for each GPIO user selectable in case User needs Active Low or Active High GPIO
     J33 Pin out and Strapping option "place shunt to enable strapping option"
     <table border="1" cellpadding="5">
-    
     <tr>
-    <td>Pin Out</td>
-    <td>NAME</td>
-    <td>J5 STRAPPING</td>
-    </tr>
-    
-    <tr>
-    <td>Pin1</td>
-    <td>GPIO_0</td>
-    <td>PULL LOW</td>
+        <td>Pin Out</td>
+        <td>NAME</td>
+        <td>J5 STRAPPING</td>
     </tr>
     <tr>
-    <td>Pin2</td>
-    <td>GPIO_1</td>
-    <td>PULL LOW</td>
+        <td>Pin1</td>
+        <td>GPIO_0</td>
+        <td>PULL LOW</td>
     </tr>
     <tr>
-    <td>Pin3</td>
-    <td>GPIO_3</td>
-    <td>PULL LOW</td>
+        <td>Pin2</td>
+        <td>GPIO_1</td>
+        <td>PULL LOW</td>
     </tr>
     <tr>
-    <td>Pin4</td>
-    <td>GPIO_4</td>
-    <td>PULL LOW</td>
+        <td>Pin3</td>
+        <td>GPIO_3</td>
+        <td>PULL LOW</td>
     </tr>
     <tr>
-    <td>Pin5</td>
-    <td>GPIO_5</td>
-    <td>PULL HIGH</td>
+        <td>Pin4</td>
+        <td>GPIO_4</td>
+        <td>PULL LOW</td>
     </tr>
     <tr>
-    <td>Pin6</td>
-    <td>GPIO_6</td>
-    <td>PULL HIGH</td>
+        <td>Pin5</td>
+        <td>GPIO_5</td>
+        <td>PULL HIGH</td>
     </tr>
     <tr>
-    <td>Pin7</td>
-    <td>GPIO_7</td>
-    <td>PULL HIGH</td>
+        <td>Pin6</td>
+        <td>GPIO_6</td>
+        <td>PULL HIGH</td>
+    </tr>
+    <tr>
+        <td>Pin7</td>
+        <td>GPIO_7</td>
+        <td>PULL HIGH</td>
     </tr>
     </table>
     
@@ -215,47 +211,46 @@ are incompatible.
     ##### LED INDICATORS
     Link/Act signals are connected to the Ethernet Phy Switch
     <table border="1" cellpadding="5">
-    
     <tr>
-    <td>LED</td>
-    <td>NAME</td>
-    <td>FUNCTION</td>
-    <td>GPIO</td>
+        <td>LED</td>
+        <td>NAME</td>
+        <td>FUNCTION</td>
+        <td>GPIO</td>
     </tr>
     <tr>
-    <td>D29</td>
-    <td>POWER</td>
-    <td>3.3VDC</td>
-    <td>NA</td>
+        <td>D29</td>
+        <td>POWER</td>
+        <td>3.3VDC</td>
+        <td>NA</td>
     </tr>
     <tr>
-    <td>D24</td>
-    <td>RF</td>
-    <td>RADIO Act</td>
-    <td>GPIO_2</td>
+        <td>D24</td>
+        <td>RF</td>
+        <td>RADIO Act</td>
+        <td>GPIO_2</td>
     </tr>
     <tr>
-    <td>DS4</td>
-    <td>WAN</td>
-    <td>Link/Act</td>
-    <td>NA</td>
+        <td>DS4</td>
+        <td>WAN</td>
+        <td>Link/Act</td>
+        <td>NA</td>
     </tr>
     <tr>
-    <td>DS14</td>
-    <td>LAN1</td>
-    <td>Link/Act</td>
-    <td>NA</td>
+        <td>DS14</td>
+        <td>LAN1</td>
+        <td>Link/Act</td>
+        <td>NA</td>
     </tr>
     <tr>
-    <td>DS12</td>
-    <td>LAN2</td>
-    <td>Link/Act</td>
-    <td>NA</td>
+        <td>DS12</td>
+        <td>LAN2</td>
+        <td>Link/Act</td>
+        <td>NA</td>
     </tr>
     <tr>
-    <td>DS13</td>
-    <td>LAN3</td>
-    <td>Link/Act</td>
-    <td>NA</td>
+        <td>DS13</td>
+        <td>LAN3</td>
+        <td>Link/Act</td>
+        <td>NA</td>
     </tr>
     </table>
